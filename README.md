@@ -15,7 +15,6 @@ Bot multiherramientas construido para un servidor de discord privado. <br/>
 - -clear
 - -reload
 
-<hr>
 <b>Ultima funcionalidad añadida:</b>
 - -meaning <palabra>
 
@@ -23,10 +22,11 @@ Bot multiherramientas construido para un servidor de discord privado. <br/>
   
 <hr>
 
-<b>Asignar roles a un comando:</b>
+<b>Como asignar roles a un comando:</b>
 <p>Añade "rolesAllowed: ['role1', 'role2', ...]" en el objeto exportado desde un modulo de comando para designar que roles pueden utilizar ese comando.</p>
 
 <hr>
 
 <b>¿Te gustó el bot?</b>
 <p>Si quieres contribuir o utilizar este proyecto, puedes clonarlo o realizar un "fork", también puedes contactarme si tienes alguna duda acerca de su funcionamiento.</p>
+<b>No te olvides de dejar creditos, me ayudaria mucho ❤︎</b>
