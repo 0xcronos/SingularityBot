@@ -6,8 +6,7 @@ Ultima funcionalidad añadida:
 
 - -meaning <palabra>
   
-Acerca de la ultima funcionalidad:<br/><br/>
-
+Acerca de la ultima funcionalidad:<br/>
 El bot responderá con la primera definición encontrada en el sitio web de la RAE, <br/>
 esto se logró realizando web scraping al sitio, si deseas saber mas sobre el funcionamiento <br/>
 de este comando revisa el archivo meaning.js.
