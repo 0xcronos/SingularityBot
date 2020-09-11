@@ -17,11 +17,11 @@ Bot multiherramientas desarrollado con NodeJS y la libreria Discord.js<br/>
 
 <b>Última funcionalidad añadida:</b>
 - -meaning <palabra>
-<p align="center">
-  <img src="https://i.ibb.co/3ktPqnS/meaning.png">
-</p>
 
 <p>El bot responderá con la primera definición encontrada en el sitio web de la RAE, esto se logró realizando web scraping al sitio, si deseas saber más sobre el funcionamiento de este comando revisa el archivo meaning.js.<p>
+<p align="left">
+  <img src="https://i.ibb.co/3ktPqnS/meaning.png">
+</p>
 
 <hr>
 
