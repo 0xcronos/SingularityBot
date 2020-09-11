@@ -1,6 +1,6 @@
 # Discord.js Bot multiherrramientas
 
-Bot multiherramientas construido para un servidor de discord privado. <br/>
+Bot multiherramientas desarrollado con NodeJS y la libreria Discord.js<br/>
 <hr>
 <b>Comandos disponibles:</b><br/>
 
