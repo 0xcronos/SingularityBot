@@ -2,7 +2,7 @@
 
 Bot multiherramientas construido para un servidor de discord privado. <br/>
 <hr>
-<b>Comandos disponibles:</b><br>
+<b>Comandos disponibles:</b><br/>
 
 - -help
 - -meaning
@@ -14,8 +14,8 @@ Bot multiherramientas construido para un servidor de discord privado. <br/>
 - -kick
 - -clear
 - -reload
-<hr>
 
+<hr>
 <b>Ultima funcionalidad añadida:</b>
 - -meaning <palabra>
 
