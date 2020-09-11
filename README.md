@@ -2,14 +2,14 @@
 
 Bot multiherramientas construido para un servidor de discord privado. <br/>
 
-Ultima funcionalidad añadida:
+<b>Ultima funcionalidad añadida:</b>
 
 - -meaning <palabra>
   
 Acerca de la ultima funcionalidad:<br/>
 <p>El bot responderá con la primera definición encontrada en el sitio web de la RAE, esto se logró realizando web scraping al sitio, si deseas saber mas sobre el funcionamiento de este comando revisa el archivo meaning.js.<p>
 
-Funcionalidades:
+<b>Funcionalidades:</b>
 
 - -help
 - -meaning
