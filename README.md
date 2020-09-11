@@ -28,4 +28,5 @@ Bot multiherramientas construido para un servidor de discord privado. <br/>
 
 <hr>
 
+<b>¿Te gustó el bot?</b>
 <p>Si quieres contribuir o utilizar como desees este proyecto, sientete libre de clonarlo o realizar un "fork", también puedes contactarme si tienes alguna duda acerca de su funcionamiento.</p>
