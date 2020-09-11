@@ -3,7 +3,7 @@
 Bot multiherramientas construido para un servidor de discord privado. <br/>
 <hr>
 <b>Funcionalidades:</b>
-
+<br>
 - -help
 - -meaning
 - -avatar
