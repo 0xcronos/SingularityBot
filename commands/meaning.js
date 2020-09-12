@@ -1,14 +1,14 @@
 const fetch = require('node-fetch');
 const jsdom = require('jsdom');
 module.exports = {
-	name: 'meaning',
-	description: 'Muestra el significado de una palabra desde el diccionario de la RAE',
+    name: 'meaning',
+    description: 'Muestra el significado de una palabra desde el diccionario de la RAE',
     aliases: ['mn'],
     args: false,
     guildOnly: false,
     usage: '<word>',
     cooldown: 5,
-	async execute(message, args, client) {
+    async execute(message, args, client) {
 
         await fetch(`https://dle.rae.es/${args[0]}`)
         .then(response => {
