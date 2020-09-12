@@ -37,7 +37,7 @@ https://discord.com/api/oauth2/authorize?client_id=741808912692543498&permission
 
 <p>Tambien puedes agregar una versión estable del bot utilizando la url de invitación</p>
 
-[Url de invitacion SingularityBot-stable-version1.0.1](https://discord.com/api/oauth2/authorize?client_id=741808912692543498&permissions=470043714&scope=bot)
+[Url de invitacion SingularityBot-stable v1.0.1](https://discord.com/api/oauth2/authorize?client_id=741808912692543498&permissions=470043714&scope=bot)
 
 
 <b>Si lo usas no olvides dejar creditos.</b>
