@@ -33,4 +33,4 @@ Esto se logró realizando web scraping al sitio, si deseas saber más sobre el f
 
 <b>¿Te gustó el bot?</b>
 <p>Si quieres contribuir o utilizar este proyecto, puedes clonarlo o realizar un "fork", también puedes contactarme si tienes alguna duda acerca de su funcionamiento.</p>
-<b>Si lo usas no olvides dejar creditos, me ayudaría mucho ❤︎</b>
+<b>Si lo usas no olvides dejar creditos.</b>
