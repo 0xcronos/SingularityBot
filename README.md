@@ -32,7 +32,6 @@ Esto se logró realizando web scraping al sitio, si deseas saber más sobre el f
 <hr>
 
 <b>¿Te gustó el bot?</b>
-https://discord.com/api/oauth2/authorize?client_id=741808912692543498&permissions=470043714&scope=bot
 <p>Si quieres contribuir o utilizar este proyecto, puedes clonarlo o realizar un "fork", también puedes contactarme si tienes alguna duda acerca de su funcionamiento.</p>
 
 <p>Tambien puedes agregar una versión estable del bot utilizando la url de invitación</p>
