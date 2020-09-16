@@ -1,17 +1,12 @@
 module.exports = {
-	name: 'setrole',
-	description: 'Asigna un rol a un usuario, automaticamente asigna prefijo de rol.',
+    name: 'setrole',
+    description: 'Asigna un rol a un usuario, automaticamente asigna prefijo de rol.',
     aliases: ['sr'],
     args: true,
     guildOnly: true,
     rolesAllowed: ['Rey', 'Lord'],
     usage: "<role-id> <users-mention>",
-	execute(message, args) {
-
-        // in case role to assign is "Rey"
-        if(args[0] === "Rey"){
-            return message.channel.send('Solo puede existir un rey en este reino... y ese soy yo!');
-        }
+    execute(message, args) {
 
         // get role
         var role = message.guild.roles.cache.get(args[0]);
