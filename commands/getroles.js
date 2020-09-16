@@ -16,5 +16,5 @@ module.exports = {
         
         message.channel.send('LISTA DE ROLES:');
         message.channel.send(roles);
-	}
+    }
 };
