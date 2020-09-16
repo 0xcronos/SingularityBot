@@ -17,8 +17,5 @@ module.exports = {
 
         // bulkDelete will delete a certain amount of messages between 2 and 100
         message.channel.bulkDelete(amount);
-        // .catch(
-        //     message.reply("solo puedes borrar mensajes que tengan menos de 14 dias desde su creación")
-        // );
     }
 };
