@@ -25,6 +25,3 @@ Esto se logró realizando web scraping al sitio, si deseas saber más sobre el f
 </p>
 
 <hr>
-
-<b>Cómo asignar roles a un comando:</b>
-<p>Añade una nueva propiedad "rolesAllowed: ['role1', 'role2', ...]" en el objeto que se exporta en un módulo de comando para designar los roles que pueden utilizar ese comando.</p>
