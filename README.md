@@ -18,8 +18,7 @@ Bot multiherramientas desarrollado con NodeJS y la libreria Discord.js<br/>
 <b>Última funcionalidad añadida:</b>
 - -meaning <palabra>
 
-<p>El bot responderá con la primera definición encontrada en el sitio web de la RAE. 
-Esto se logró realizando web scraping al sitio, si deseas saber más sobre el funcionamiento de este comando revisa el archivo meaning.js.<p>
+<p>El bot responderá con la primera definición encontrada en el sitio web de la RAE. <p>
 <p align="left">
   <img width="500px" height="300px"src="https://i.ibb.co/3ktPqnS/meaning.png">
 </p>
