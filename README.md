@@ -31,16 +31,16 @@ Edit src/config.js.
 ## Comandos disponibles
 
 ```sh
-- -meaning
-- -help
-- -avatar
-- -cat
-- -server
-- -getroles
-- -setrole
-- -kick
-- -clear
-- -reload
+- meaning
+- help
+- avatar
+- cat
+- server
+- getroles
+- setrole
+- kick
+- clear
+- reload
 ```
 
 
