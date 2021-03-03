@@ -63,9 +63,7 @@ npm run start
 
 Diego Muñoz – [LinkedIn](linkedin.com/in/diegomuñozm) – 0xcronos@gmail.com
 
-Distribuido bajo la licencia GPL-3.0
-<br/><br/>
-Ve a ``LICENSE`` para mas información.
+Distribuido bajo la licencia GPL-3.0. Ve a ``LICENSE`` para mas información.
 
 [Ver licencia](https://github.com/0xCronos/SingularityBot/blob/master/LICENSE)
 
