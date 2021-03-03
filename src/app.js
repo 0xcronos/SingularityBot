@@ -1,5 +1,5 @@
 const { token } = require('./config.json');
-const DiscordBot = require('./models/DiscordBot');
+const DiscordBot = require('./models/discordBot');
 const { handleMemberAdd } = require('./events');
 
 // initialize bot

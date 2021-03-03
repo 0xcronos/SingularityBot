@@ -13,7 +13,7 @@ class DiscordBot {
 
 	initCommands() {
 		// Read commands files from commands folder
-		const commandFiles = fs.readdirSync('./commands').filter((file) => file.endsWith('.js'));
+		const commandFiles = fs.readdirSync('./src/commands').filter((file) => file.endsWith('.js'));
 		// Dynamically set commands to the Collection
 		for (const file of commandFiles) {
 			const command = require(`../commands/${file}`);

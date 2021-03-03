@@ -2,10 +2,10 @@
   "name": "SingularityBot",
   "version": "1.0.0",
   "description": "A multitasking discord bot made with love",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js",
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
