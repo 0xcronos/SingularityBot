@@ -10,15 +10,15 @@ de la RAE desde la comodidad de tu servidor.
 
 ![](https://i.ibb.co/3ktPqnS/meaning.png)
 
-## Installation
+## Instalación
 
-Download dependencies.
+Primero descarga las dependencias:
 
 ```sh
 npm install
 ```
 
-Edit src/config.js.
+Configura src/config.js:
 
 ```sh
 {
@@ -26,6 +26,12 @@ Edit src/config.js.
     "token": "token-here",
     "defaultRole": "default-role-here"
 }
+```
+
+Inicia el bot:
+
+```sh
+npm run start
 ```
 
 ## Comandos disponibles
