@@ -7,7 +7,7 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-SingularityBot es un bot para servidores de Discord, el cual, entre varias otras utilidades, te permitirá consultar significados
+SingularityBot es un bot para servidores de Discord, cuya principal funcionalidad te permitirá consultar significados
 de la RAE desde la comodidad de tu servidor.
 
 ![](https://i.ibb.co/3ktPqnS/meaning.png)
