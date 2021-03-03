@@ -1,5 +1,5 @@
 # SingularityBot
-> Bot de Discord que muestra significados de palabras, entre otros.
+> Bot de Discord multitarea conectado al sitio de la RAE.
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
