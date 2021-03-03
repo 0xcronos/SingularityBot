@@ -71,7 +71,7 @@ Ve a ``LICENSE`` para mas información.
 
 ## Contributing
 
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
+1. Fork it (<https://github.com/0xCronos/SingularityBot/fork>)
 2. Crea tu propio branch (`git checkout -b feature/SingularityBot`)
 3. Realiza los cambios (`git commit -am 'Add some fooBar'`)
 4. Subelo a tu branch (`git push origin feature/SingularityBot`)
