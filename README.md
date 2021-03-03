@@ -43,16 +43,6 @@ Edit src/config.js.
 - reload
 ```
 
-
-## Development setup
-
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
-```sh
-make install
-npm test
-```
-
 ## Release History
 
 * 0.2.1
@@ -72,9 +62,9 @@ npm test
 
 Diego Muñoz – [LinkedIn](linkedin.com/in/diegomuñozm) – 0xcronos@gmail.com
 
-Distributed under the GNU license. See ``LICENSE`` for more information.
+Distribuido bajo la licencia GNU General Public License v3.0. Mira ``LICENSE`` para mas información.
 
-[https://github.com/0xCronos/SingularityBot](https://github.com/dbader/)
+[https://github.com/0xCronos/](https://github.com/0xCronos/)
 
 ## Contributing
 
