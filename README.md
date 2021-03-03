@@ -67,7 +67,7 @@ Distribuido bajo la licencia GNU General Public License v3.0.
 <br />
 Ve a ``LICENSE`` para mas información.
 
-[License](https://github.com/0xCronos/SingularityBot/blob/master/LICENSE)
+[https://github.com/0xCronos/](https://github.com/0xCronos/)
 
 ## Contributing
 
