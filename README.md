@@ -28,9 +28,20 @@ Edit src/config.js.
 }
 ```
 
-## Usage example
+## Comandos disponibles
 
-asdfasdfasdf
+```sh
+- -meaning
+- -help
+- -avatar
+- -cat
+- -server
+- -getroles
+- -setrole
+- -kick
+- -clear
+- -reload
+```
 
 
 ## Development setup
