@@ -1,6 +1,6 @@
 # SingularityBot: Consulta significados de palabras desde la comodidad de tu servidor!
 
-<p align="left">
+<p align="center">
   <img width="500px" height="300px"src="https://i.ibb.co/3ktPqnS/meaning.png">
 </p>
 
