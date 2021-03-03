@@ -1,33 +1,35 @@
-# Product Name
+# SingularityBot
 > Short blurb about what your product does.
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-One to two paragraph statement about your product and what it does.
+SingularityBot es un bot para servidores de Discord, el cual, entre varias otras utilidades, te permitirá consultar significados
+de la RAE desde la comodidad de tu servidor.
 
-![](header.png)
+![](https://i.ibb.co/3ktPqnS/meaning.png)
 
 ## Installation
 
-OS X & Linux:
-
 ```sh
-npm install my-crazy-module --save
+npm install
 ```
 
-Windows:
+Edit config.js
 
 ```sh
-edit autoexec.bat
+{
+    "prefix": "prefix-here",
+    "token": "token-here",
+    "defaultRole": "default-role-here"
+}
 ```
 
 ## Usage example
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+asdfasdfasdf
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
 
 ## Development setup
 
