@@ -1,11 +1,19 @@
-# Discord.js Bot multiherrramientas
+# SingularityBot: Consulta significados de palabras desde la comodidad de tu servidor!
 
-Bot multiherramientas desarrollado con NodeJS y la libreria Discord.js<br/>
+Bot multiherramienta desarrollado con NodeJS y la libreria Discord.js<br/>
+
 <hr>
+<b>Instalación:<b/><br/>
+npm install
+set a prefix for your commands: example ">" (>meaning gato)
+add your token to config.json
+set a default role (it must exist in your discord server too)
+<hr>
+<br/>
 <b>Comandos disponibles:</b><br/>
 
-- -help
 - -meaning
+- -help
 - -avatar
 - -cat
 - -server
@@ -14,9 +22,6 @@ Bot multiherramientas desarrollado con NodeJS y la libreria Discord.js<br/>
 - -kick
 - -clear
 - -reload
-
-<b>Última funcionalidad añadida:</b>
-- -meaning <palabra>
 
 <p>El bot responderá con la primera definición encontrada en el sitio web de la RAE. <p>
 <p align="left">
