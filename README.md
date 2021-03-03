@@ -63,8 +63,8 @@ npm run start
 
 Diego Muñoz – [LinkedIn](linkedin.com/in/diegomuñozm) – 0xcronos@gmail.com
 
-Distribuido bajo la licencia GNU General Public License v3.0.
-<br />
+Distribuido bajo la licencia GPL-3.0
+<br/><br/>
 Ve a ``LICENSE`` para mas información.
 
 [https://github.com/0xCronos/](https://github.com/0xCronos/)
