@@ -65,15 +65,15 @@ Distribuido bajo la licencia GNU General Public License v3.0.
 <br />
 Ve a ``LICENSE`` para mas información.
 
-[https://github.com/0xCronos/](https://github.com/0xCronos/)
+[License](https://github.com/0xCronos/SingularityBot/blob/master/LICENSE)
 
 ## Contributing
 
 1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
+2. Crea tu propio branch (`git checkout -b feature/SingularityBot`)
+3. Realiza los cambios (`git commit -am 'Add some fooBar'`)
+4. Subelo a tu branch (`git push origin feature/SingularityBot`)
+5. Crea una pull request
 
 <!-- Markdown link & img dfn's -->
 [npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
