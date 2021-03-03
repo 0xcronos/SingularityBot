@@ -73,11 +73,3 @@ Ve a ``LICENSE`` para mas información.
 3. Realiza los cambios (`git commit -am 'Add some fooBar'`)
 4. Subelo a tu branch (`git push origin feature/SingularityBot`)
 5. Crea una pull request
-
-<!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
