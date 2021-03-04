@@ -34,13 +34,13 @@ PREFIX=!
 TOKEN=copia-el-token-de-tu-bot-aqui
 ```
 
-4) Iniciar el servidor de Nodejs:
+4) Inicia la aplicación
 
 ```sh
 npm run start
 ```
 
-4) Añadir el bot a tu servidor y disfrutar!
+4) Añade el bot a tu servidor y disfrutar!
 
 
 ## Comandos disponibles
