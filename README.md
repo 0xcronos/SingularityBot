@@ -61,7 +61,7 @@ Distribuido bajo la licencia GPL-3.0. Ve a ``LICENSE`` para obtener mas informac
 
 [Ver licencia](https://github.com/0xCronos/SingularityBot/blob/master/LICENSE)
 
-## Contributing
+## Quiero contribuir
 
 1. Fork it (<https://github.com/0xCronos/SingularityBot/fork>)
 2. Crea tu propio branch (`git checkout -b feature/SingularityBot`)
