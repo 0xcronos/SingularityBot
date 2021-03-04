@@ -12,7 +12,11 @@ de palabras desde el sitio oficial de la RAE. Para lograr esto se realizó web s
 
 ![](https://i.ibb.co/3ktPqnS/meaning.png)
 
-## Instalación
+## Demo
+[Click aqui para invitar a Singularity a tu servidor](https://discord.com/api/oauth2/authorize?client_id=741808912692543498&permissions=215104&scope=bot)
+
+
+## Instalación para desarrolladores
 
 1) Instala las dependencias:
 
