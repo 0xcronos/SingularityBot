@@ -20,13 +20,12 @@ de palabras desde la comodidad de tu servidor. Para lograr esto se realizó web 
 npm install
 ```
 
-2) Configurar src/config.js:
+2) Crear un archivo .env fuera de src/:
 
 ```sh
-{
-    "prefix": "prefix-here",
-    "token": "token-here",
-}
+.env
+PREFIX=prefix-here
+TOKEN=token-here
 ```
 
 3) Iniciar el servidor de Nodejs:
