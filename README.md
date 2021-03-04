@@ -14,13 +14,13 @@ de palabras desde el sitio oficial de la RAE. Para lograr esto se realizó web s
 
 ## Instalación
 
-1) Instalar las dependencias:
+1) Instala las dependencias:
 
 ```sh
 npm install
 ```
 
-2) Crear un archivo .env en la ruta SingularityBot/ y escribir:
+2) Crea un archivo .env en la ruta SingularityBot/ y pega lo siguiente:
 ```sh
 PREFIX=prefix-here
 TOKEN=token-here
@@ -28,7 +28,7 @@ TOKEN=token-here
 
 5) Crea un bot en https://discord.com/developers/applications
 
-6) Configurar PREFIX y TOKEN en .env
+6) Copia el token de tu bot en .env y ponle un prefix a tus comandos
 ```sh
 PREFIX=!
 TOKEN=copia-el-token-de-tu-bot-aqui
