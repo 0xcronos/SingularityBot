@@ -1,5 +1,5 @@
 # SingularityBot
-> Consulta el significado de palabras desde la comodidad de tu servidor!
+> Consulta el significado de palabras en español desde la comodidad de tu servidor!
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
