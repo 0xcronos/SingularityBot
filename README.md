@@ -16,6 +16,14 @@ de palabras desde el sitio oficial de la RAE. Para lograr esto se realizó web s
 Añade a Singularity a tu servidor de discord mediante esta
 [Invitación](https://discord.com/api/oauth2/authorize?client_id=741808912692543498&permissions=215104&scope=bot)
 
+## Comandos disponibles
+
+```sh
+- meaning
+- avatar
+- server
+- help
+```
 
 ## Instalación para desarrolladores
 
@@ -46,17 +54,6 @@ npm run start
 ```
 
 4) Añade el bot a tu servidor y disfrutar!
-
-
-## Comandos disponibles
-
-```sh
-- meaning
-- avatar
-- reload
-- server
-- help
-```
 
 ## Historial de versiones
 
