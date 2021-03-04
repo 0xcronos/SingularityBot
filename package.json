@@ -1,5 +1,5 @@
 {
-  "name": "SingularityBot",
+  "name": "singularitybot",
   "version": "1.0.0",
   "description": "A multitasking discord bot made with love",
   "main": "app.js",
@@ -8,8 +8,8 @@
     "start": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["RAE", "Discord", "Bot", "Scraping"],
+  "author": "0xCronos",
   "license": "ISC",
   "dependencies": {
     "@discordjs/opus": "^0.3.2",

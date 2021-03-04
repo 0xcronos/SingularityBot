@@ -1,21 +1,20 @@
-const raeMeaningCrawler = document => {
+const getFirstMeaning = document => {
 
-    var results = document.getElementById('resultados');
+    const results = document.getElementById('resultados');
             
-    // first article of div
-    var article = results.firstElementChild;
+    // primer article del div
+    let article = results.firstElementChild;
 
-    // throw error if first tagName is not an article element
+    // la palabra no existe si el primer elemento no es de tipo article
     if(article.tagName !== 'ARTICLE') throw new Error('No existe la palabra!');
 
-    // loop until the "p" element inside "article" in position 1 of the array exists
-    var hasData = article.getElementsByTagName('p')[1];
-    
+    // itera hasta que el elemento "p" dentro de "article" en la posicion 1 del arreglo exista.
+    let hasData = article.getElementsByTagName('p')[1];
     while(hasData === undefined){
-        // go to next article inside div
+        // avanza al siguiente elemento "article"
         article = article.nextElementSibling;
         
-        // break condition, no articles left
+        // no quedan mas elementos "articles"
         if(article.tagName !== 'ARTICLE') {
             return message.reply(`la palabra no tiene una descripción exacta, para mas información visita el sitio web de la RAE`);
         };
@@ -24,11 +23,12 @@ const raeMeaningCrawler = document => {
     }
 
     // convert text content to an array separated with line breaks and without empty slots
+    // convierte el texto en un arreglo de strings, elimina strings vacias
     data = article['textContent'].split('\n').filter(line => {
         return line != "";
     });
     
-    // object with all the important data inside
+    // objeto resultante
     const wordInfo = {
         'word': data[0].replace(/[0-9]/g, ''),
         'latin': data[1],
@@ -38,4 +38,4 @@ const raeMeaningCrawler = document => {
 }
 
 
-module.exports = raeMeaningCrawler;
+module.exports = getFirstMeaning;

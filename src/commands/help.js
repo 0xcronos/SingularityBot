@@ -9,7 +9,7 @@ module.exports = {
     usage: "<opcional: comando>",
     execute(message, args){
 
-        // store output messages
+        // Almacena mensajes de salida
         const data = [];
         const { commands } = message.client;
 
@@ -29,7 +29,7 @@ module.exports = {
                 });
         }
 
-        // looks for the first arg within the list of commands and aliases
+        // Busca el primer arg entre la lista de comandos y alias
         const name = args[0].toLowerCase();
         const command = commands.get(name) || commands.find(cmd => cmd.aliases && cmd.aliases.includes(name));
 

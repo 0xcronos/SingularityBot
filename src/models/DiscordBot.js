@@ -8,17 +8,7 @@ class DiscordBot {
 		this.commands = new Discord.Collection();
 		this.cooldowns = new Discord.Collection();
 
-		this.initCommands();
-	}
-
-	initCommands() {
-		// Read commands files from commands folder
-		const commandFiles = fs.readdirSync('./src/commands').filter((file) => file.endsWith('.js'));
-		// Dynamically set commands to the Collection
-		for (const file of commandFiles) {
-			const command = require(`../commands/${file}`);
-			this.commands.set(command.name, command);
-		}
+		this.#initCommands();
 	}
 
 	onReady(message) {
@@ -38,8 +28,11 @@ class DiscordBot {
 			const { command, args } = this.#getCommand(message);
 			if (!command) return;
 
-			const isValid = this.#validateCommand(command, message, args);
-			if (!isValid) return;
+			const isServerOnly = this.#checkServerOnlyCommand(command, message);
+			if (isServerOnly) return;
+
+			const needsArgs = this.#checkCommandArgs(command, message, args);
+			if (needsArgs) return;
 
 			const hasPermission = this.#checkForPermission(command, message);
 			if (!hasPermission) return;
@@ -51,7 +44,17 @@ class DiscordBot {
 		});
 	}
 
-	// get commands and args if the message is valid
+	#initCommands() {
+		// Lee los archivos de comandos
+		const commandFiles = fs.readdirSync('./src/commands').filter((file) => file.endsWith('.js'));
+		// Añade los comandos de manera dinamica
+		for (const file of commandFiles) {
+			const command = require(`../commands/${file}`);
+			this.commands.set(command.name, command);
+		}
+	}
+
+	// Obtiene los comandos y sus argumentos si el mensaje es válido
 	#getCommand(message) {
 		const args = message.content.slice(prefix.length).trim().split(/ +/);
 		const commandName = args.shift().toLowerCase();
@@ -66,25 +69,29 @@ class DiscordBot {
 		return { command, args };
 	}
 
-	// validate server-only and command args
-	#validateCommand(command, message, args) {
+	// Valida si el comando solo está disponible en servidores 
+	#checkServerOnlyCommand(command, message) {
 		if (command.guildOnly && message.channel.type !== 'text') {
 			message.reply(`No puedo ejecutar este comando fuera de un servidor!`);
-			return false;
+			return true;
 		}
+		return false;
+	}
 
+	// Valida si el comando require de argumentos para funcionar
+	#checkCommandArgs(command, message, args){
 		if (command.args && !args.length) {
 			let reply = `no has ingresado ningún parametro, ${message.author}!`;
 			if (command.usage) {
 				reply += `\nPara usar este comando prueba: \`${prefix}${command.name} ${command.usage}\``;
 			}
 			message.channel.send(reply);
-			return false;
+			return true;
 		}
-		return true;
+		return false;
 	}
 
-	// check that user has permission to execute the command
+	// Valida que el usuario tenga los privilegios suficientes para ejecutar el comando
 	#checkForPermission(command, message) {
 		if (command.rolesAllowed && command.rolesAllowed.length) {
 			if (!message.member.roles.cache.some((role) => command.rolesAllowed.includes(role.name))) {
@@ -95,7 +102,7 @@ class DiscordBot {
 		return true;
 	}
 
-	// Cooldown manager => Return true if already in cooldown
+	// Cooldown manager => Retorna true si el comando está en enfriamiento.
 	#setCooldown(command, message) {
 		if (!this.cooldowns.has(command.name)) {
 			this.cooldowns.set(command.name, new Discord.Collection());
@@ -103,10 +110,9 @@ class DiscordBot {
 
 		const now = Date.now();
 		const timestamps = this.cooldowns.get(command.name);
-		// command file cooldown or 2 by default, converted to miliseconds
 		const cooldownAmount = (command.cooldown || 2) * 1000;
 
-		// if author has timestamps
+		// Si el emisor del mensaje tiene un timestamp
 		if (timestamps.has(message.author.id)) {
 			const expirationTime = timestamps.get(message.author.id) + cooldownAmount;
 
@@ -117,7 +123,7 @@ class DiscordBot {
 			}
 		}
 
-		// asign current time to message's author
+		// Asigna tiempo actual al emisor del mensaje
 		timestamps.set(message.author.id, now);
 		setTimeout(() => timestamps.delete(message.author.id), cooldownAmount);
 
@@ -125,7 +131,6 @@ class DiscordBot {
 	}
 
 	#executeCommand(command, message, args) {
-		// Command execution
 		try {
 			command.execute(message, args, this.client);
 		} catch (error) {

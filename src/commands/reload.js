@@ -11,7 +11,7 @@ module.exports = {
         const command = message.client.commands.get(commandName)
             || message.client.commands.find(cmd => cmd.aliases && cmd.aliases.includes(commandName));
 
-        // in case the command doesn't exists
+        // En caso que el comando no exista
         if(!command) return message.channel.send(`No existe ningún comando con el nombre o alias \`${commandName}\`, ${message.author}!`);
 
         delete require.cache[require.resolve(`./${command.name}.js`)];
