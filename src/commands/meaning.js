@@ -6,7 +6,7 @@ module.exports = {
 	name: 'meaning',
 	description: 'Muestra el significado de una palabra desde el diccionario de la RAE',
 	aliases: ['mn'],
-	args: false,
+	args: true,
 	guildOnly: false,
 	usage: '<word>',
 	cooldown: 5,
@@ -19,10 +19,13 @@ module.exports = {
 
 		scraper.crawler = raeMeaningCrawler;
 
-		const results = await scraper.run();
-
-		const raeEmbed = generateRaeEmbed(args[0], results[0], client);
-		
-		message.channel.send({ embed: raeEmbed });
+		try{
+			const results = await scraper.run();
+			const raeEmbed = generateRaeEmbed(args[0], results[0], client);
+			message.channel.send({ embed: raeEmbed });
+		}catch(err){
+			message.channel.send('La palabra ingresada no existe o está mal escrita (debes añadir tildes si es necesario).');
+			console.log(err);
+		}
 	},
 };

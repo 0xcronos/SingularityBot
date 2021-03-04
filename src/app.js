@@ -1,14 +1,10 @@
-require('dotenv').config();
 const { token } = require('./config.json');
 const DiscordBot = require('./models/discordBot');
-const { handleMemberAdd } = require('./events');
 
-// initialize bot
+// bot initialization
 const discordBot = new DiscordBot(token);
 
 discordBot.onReady('Bot Ready!');
-
-discordBot.onGuildMemberJoin(handleMemberAdd);
 
 discordBot.awaitForMessages();
 

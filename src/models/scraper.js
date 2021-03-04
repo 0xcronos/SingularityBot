@@ -8,19 +8,19 @@ class Scraper {
         this.dom = null;
 	}
 
-	checkCrawler() {
+	#checkCrawler() {
 		if (typeof this.crawler === typeof(Function)) {
 			return true;
 		}
         return false;
 	}
 
-	async initializeRawHTML() {
+	async #initializeRawHTML() {
 		const fetchData = await fetch(this.url);
 		return fetchData.text();
 	}
 
-	async renderDom(raw) {
+	async #renderDom(raw) {
 		return new jsdom.JSDOM(raw);
 	}
 
@@ -29,12 +29,12 @@ class Scraper {
 			throw new Error('You need to inject a crawler function first.');
 		}
 
-        if(!this.checkCrawler()){
+        if(!this.#checkCrawler()){
             throw new Error('crawler must be a function.');
         }
 
-        const rawHTML = await this.initializeRawHTML();
-        this.dom = await this.renderDom(rawHTML);
+        const rawHTML = await this.#initializeRawHTML();
+        this.dom = await this.#renderDom(rawHTML);
     
 		return this.crawler(this.dom.window.document);
 	}
