@@ -13,7 +13,7 @@ de palabras desde el sitio oficial de la RAE. Para lograr esto se realizó web s
 ![](https://i.ibb.co/3ktPqnS/meaning.png)
 
 ## Invita a Singularity a tu servidor
-Añade a Singularity a tu servidor de discord mediante la invitación de abajo!
+Añade a Singularity a tu servidor de discord mediante esta
 [Invitación](https://discord.com/api/oauth2/authorize?client_id=741808912692543498&permissions=215104&scope=bot)
 
 
