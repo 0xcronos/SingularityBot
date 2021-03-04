@@ -23,7 +23,8 @@ npm install
 2) Crear un archivo .env fuera de src/:
 
 ```sh
-.env
+.env file in SingularityBot/
+
 PREFIX=prefix-here
 TOKEN=token-here
 ```
