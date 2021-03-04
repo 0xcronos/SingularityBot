@@ -20,14 +20,19 @@ de palabras desde la comodidad de tu servidor. Para lograr esto se realizó web 
 npm install
 ```
 
-2) Crear un archivo .env en SingularityBot/.env:
-
-3) Añadir las siguientes lineas dentro del archivo .env
+2) Crear un archivo .env en la ruta SingularityBot/ y escribir:
 ```sh
 PREFIX=prefix-here
 TOKEN=token-here
 ```
-4) Configurar de PREFIX y TOKEN por los tuyos.
+
+5) Crea un bot en https://discord.com/developers/applications
+
+6) Configurar PREFIX y TOKEN en .env
+```sh
+PREFIX=!
+TOKEN=token-de-tu-bot
+```
 
 4) Iniciar el servidor de Nodejs:
 
