@@ -31,7 +31,7 @@ TOKEN=token-here
 6) Configurar PREFIX y TOKEN en .env
 ```sh
 PREFIX=!
-TOKEN=token-de-tu-bot
+TOKEN=copia-el-token-de-tu-bot-aqui
 ```
 
 4) Iniciar el servidor de Nodejs:
