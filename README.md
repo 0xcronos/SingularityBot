@@ -28,7 +28,7 @@ TOKEN=token-here
 
 5) Crea un bot en https://discord.com/developers/applications
 
-6) Copia el token de tu bot en .env y ponle un prefix a tus comandos (esto afecta como se llamarán tus comandos, ej: !meaning, $meaning, .meaning)
+6) Copia el token de tu bot en .env y ponle un prefix a tus comandos (esto afecta como se llamarán tus comandos, ej: !meaning)
 ```sh
 PREFIX=!
 TOKEN=copia-el-token-de-tu-bot-aqui
