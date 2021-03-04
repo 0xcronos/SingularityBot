@@ -1,3 +1,4 @@
+require('dotenv').config();
 const { token } = require('./config.json');
 const DiscordBot = require('./models/discordBot');
 const { handleMemberAdd } = require('./events');
