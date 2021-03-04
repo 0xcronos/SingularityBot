@@ -1,4 +1,4 @@
-const { token } = require('./config.json');
+const { token } = require('./config.js');
 const DiscordBot = require('./models/discordBot');
 
 const discordBot = new DiscordBot(token);

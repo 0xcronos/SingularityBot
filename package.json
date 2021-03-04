@@ -8,12 +8,18 @@
     "start": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["RAE", "Discord", "Bot", "Scraping"],
+  "keywords": [
+    "RAE",
+    "Discord",
+    "Bot",
+    "Scraping"
+  ],
   "author": "0xCronos",
   "license": "ISC",
   "dependencies": {
     "@discordjs/opus": "^0.3.2",
     "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
     "jsdom": "^16.4.0",
     "node-fetch": "^2.6.1"
   },

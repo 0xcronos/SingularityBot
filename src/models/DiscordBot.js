@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const fs = require('fs');
-const { prefix } = require('../config.json');
+const { prefix } = require('../config.js');
 
 class DiscordBot {
 	constructor(token) {
