@@ -26,7 +26,6 @@ npm install
 {
     "prefix": "prefix-here",
     "token": "token-here",
-    "defaultRole": "default-role-here"
 }
 ```
 
@@ -43,15 +42,10 @@ npm run start
 
 ```sh
 - meaning
-- help
 - avatar
-- cat
-- server
-- getroles
-- setrole
-- kick
-- clear
 - reload
+- server
+- help
 ```
 
 ## Historial de versiones
