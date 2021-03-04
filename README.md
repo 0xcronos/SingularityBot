@@ -20,7 +20,7 @@ de palabras desde la comodidad de tu servidor. Para lograr esto se realizó web 
 npm install
 ```
 
-2) Crear un archivo .env fuera de src/:
+2) Crear un archivo .env:
 
 ```sh
 .env file in SingularityBot/
