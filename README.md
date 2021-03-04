@@ -14,13 +14,13 @@ de la RAE desde la comodidad de tu servidor.
 
 ## Instalación
 
-1) Primero descarga las dependencias:
+1) Instalar las dependencias:
 
 ```sh
 npm install
 ```
 
-2) Configura src/config.js:
+2) Configurar src/config.js:
 
 ```sh
 {
@@ -30,13 +30,13 @@ npm install
 }
 ```
 
-3) Inicia el servidor de Nodejs:
+3) Iniciar el servidor de Nodejs:
 
 ```sh
 npm run start
 ```
 
-4) Añade al bot a tu servidor y disfruta!
+4) Añadir al bot a tu servidor y disfrutar!
 
 
 ## Comandos disponibles
