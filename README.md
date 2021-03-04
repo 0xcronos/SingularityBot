@@ -1,5 +1,5 @@
 # SingularityBot
-> Consulta el significado de palabras desde la comodidas de tu servidor!
+> Consulta el significado de palabras desde la comodidad de tu servidor!
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -8,34 +8,43 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 SingularityBot es un bot para servidores de Discord, cuya principal funcionalidad te permitirá consultar el significado
-de palabras desde la comodidad de tu servidor. Para lograr esto se realizó web scraping al sitio oficial de la RAE, por lo que las definiciones serán muy acertadas. 
+de palabras desde el sitio oficial de la RAE. Para lograr esto se realizó web scraping al sitio oficial de la RAE, por lo que las definiciones serán muy acertadas. 
 
 ![](https://i.ibb.co/3ktPqnS/meaning.png)
 
-## Instalación
+## Demo
+[Click aqui para invitar a Singularity a tu servidor](https://discord.com/api/oauth2/authorize?client_id=741808912692543498&permissions=215104&scope=bot)
 
-1) Instalar las dependencias:
+
+## Instalación para desarrolladores
+
+1) Instala las dependencias:
 
 ```sh
 npm install
 ```
 
-2) Configurar src/config.js:
-
+2) Crea un archivo .env en la ruta SingularityBot/ y pega lo siguiente:
 ```sh
-{
-    "prefix": "prefix-here",
-    "token": "token-here",
-}
+PREFIX=prefix-here
+TOKEN=token-here
 ```
 
-3) Iniciar el servidor de Nodejs:
+5) Crea un bot en https://discord.com/developers/applications
+
+6) Copia el token de tu bot en .env y ponle un prefix a tus comandos (esto afecta como se llamarán tus comandos, ej: !meaning)
+```sh
+PREFIX=!
+TOKEN=copia-el-token-de-tu-bot-aqui
+```
+
+4) Inicia la aplicación
 
 ```sh
 npm run start
 ```
 
-4) Añadir al bot a tu servidor y disfrutar!
+4) Añade el bot a tu servidor y disfrutar!
 
 
 ## Comandos disponibles
