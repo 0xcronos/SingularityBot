@@ -22,7 +22,6 @@ const getFirstMeaning = document => {
         hasData = article.getElementsByTagName('p')[1];
     }
 
-    // convert text content to an array separated with line breaks and without empty slots
     // convierte el texto en un arreglo de strings, elimina strings vacias
     data = article['textContent'].split('\n').filter(line => {
         return line != "";
