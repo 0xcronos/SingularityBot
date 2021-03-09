@@ -5,7 +5,7 @@ const { prefix } = require('../config.js');
 class DiscordBot {
 	constructor(token) {
 		this.client = new Discord.Client();
-		this.commands = new Discord.Collection();
+		this.client.commands = new Discord.Collection();
 		this.cooldowns = new Discord.Collection();
 
 		this.#initCommands();
@@ -50,7 +50,7 @@ class DiscordBot {
 		// Añade los comandos de manera dinamica
 		for (const file of commandFiles) {
 			const command = require(`../commands/${file}`);
-			this.commands.set(command.name, command);
+			this.client.commands.set(command.name, command);
 		}
 	}
 
@@ -60,8 +60,8 @@ class DiscordBot {
 		const commandName = args.shift().toLowerCase();
 
 		const command =
-			this.commands.get(commandName) ||
-			this.commands.find((cmd) => {
+			this.client.commands.get(commandName) ||
+			this.client.commands.find((cmd) => {
 				cmd.aliases && cmd.aliases.includes(commandName);
 			});
 

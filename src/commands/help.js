@@ -7,11 +7,12 @@ module.exports = {
     args: false,
     guildOnly: false,
     usage: "<opcional: comando>",
-    execute(message, args){
+    execute(message, args, client){
 
         // Almacena mensajes de salida
         const data = [];
-        const { commands } = message.client;
+
+        const { commands } = client;
 
         if(!args.length){
             data.push('Lista de comandos disponibles:');
