@@ -1,6 +1,6 @@
 # SingularityBot
 > Consulta el significado de palabras en español desde la comodidad de tu servidor!
-
+> IMPORTANTE: Este repositorio ha sido deprecado y no se asegura su correcto funcionamiento, si de todos modos deseas usarlo probablemente haya que arreglar algunos bugs!
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
