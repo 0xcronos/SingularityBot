@@ -1,4 +1,6 @@
 # SingularityBot
+## IMPORTANTE: Este repositorio ha sido deprecado y no se asegura su correcto funcionamiento, si de todos modos deseas usarlo probablemente haya que arreglar algunos bugs!
+
 > Consulta el significado de palabras en español desde la comodidad de tu servidor!
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -8,7 +10,6 @@
 
 SingularityBot es un bot para servidores de Discord, cuya principal funcionalidad te permitirá consultar el significado
 de palabras desde el sitio oficial de la RAE. Para lograr esto se realizó web scraping al sitio oficial de la RAE, por lo que las definiciones serán muy acertadas.
-> IMPORTANTE: Este repositorio ha sido deprecado y no se asegura su correcto funcionamiento, si de todos modos deseas usarlo probablemente haya que arreglar algunos bugs!
 
 ![](https://i.ibb.co/3ktPqnS/meaning.png)
 
