@@ -65,7 +65,7 @@ npm run start
 
 ## Meta
 
-Diego Muñoz – [LinkedIn](linkedin.com/in/diegomuñozm) – 0xcronos@gmail.com
+Diego Muñoz – [LinkedIn](linkedin.com/in/diegomuñozm)
 
 Distribuido bajo la licencia GPL-3.0. Ve a ``LICENSE`` para obtener mas información.
 
